@@ -45,6 +45,20 @@
         android:layout_marginEnd="10dp"
         android:text="@string/Acessar"
         />
+    <Button
+        android:id="@+id/segundo_botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/botao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/segunda_tela"
+
+
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
